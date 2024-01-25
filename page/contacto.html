@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="../img/logo.jpg" alt="logo de pagina" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../page/catalogo.html">CATALOGO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../page/ofertas.html">OFERTAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../page/presentacion.html"
+                >PRESENTACION</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1>Comunicate con nosotros</h1>
+
+    <div class="container mt-4">
+      <div class="contenedorcontacto">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-6 mb-3">
+            <label for="validationCustom01" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              value=""
+              required
+            />
+            <div class="valid-feedback">¡Se ve bien!</div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationCustom02" class="form-label">Apellido</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom02"
+              value=""
+              required
+            />
+            <div class="valid-feedback">¡Se ve bien!</div>
+          </div>
+          <div class="col-12 mb-3">
+            <label for="validationCustomUsername" class="form-label"
+              >Mail</label
+            >
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustomUsername"
+                aria-describedby="inputGroupPrepend"
+                required
+              />
+              <div class="invalid-feedback">
+                Por favor, elige un nombre de usuario.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <label for="validationCustom03" class="form-label">Localidad</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom03"
+              required
+            />
+            <div class="invalid-feedback">
+              Por favor, proporciona una ciudad válida.
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <label for="validationCustom04" class="form-label"
+              >Provincias</label
+            >
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Seleccionar</option>
+              <option>Buenos Aires</option>
+              <option>Corrientes</option>
+              <option>Salta</option>
+              <option>Cordoba</option>
+              <option>Neuquen</option>
+              <option>Misiones</option>
+            </select>
+            <div class="invalid-feedback">
+              Por favor, selecciona un estado válido.
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <label for="validationCustom05" class="form-label"
+              >Código Postal</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom05"
+              required
+            />
+            <div class="invalid-feedback">
+              Por favor, proporciona un código postal válido.
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck">
+                Aceptas los términos
+              </label>
+              <div class="invalid-feedback">Debes aceptar antes de enviar.</div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="piedepagina">
+        <div class="informacion">
+          <p>NUESTRAS REDES</p>
+        </div>
+        <ul class="lista-pequena">
+          <li>Ubicacion: Quilmes</li>
+          <li>Telefono: 011 1532698832</li>
+          <li>Horarios: Lunes a viernes de 9 am a 18pm</li>
+          <li>©2024 TOBYSTORE-Todos los derechos reservados</li>
+        </ul>
+        <div class="redessociales">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+            <img src="../medios/icons8-facebook-nuevo-48.png" alt="facebook" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+            <img src="../medios/icons8-instagram-48.png" alt="instagram" />
+          </a>
+          <a
+            href="https://www.whatsapp.com/?lang=es_LA"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="../medios/icons8-whatsapp-48.png" alt="whatsapp" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

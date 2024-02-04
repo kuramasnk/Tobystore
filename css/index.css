@@ -11,7 +11,7 @@ body {
 }
 
 /* Estilos para la barra de navegación */
-.navbar .container-fluid {
+.logo {
   padding: 10px;
   background-color: #29adb2;
   box-shadow: 15 15px 35px rgba(109, 6, 6, 0.1);
@@ -20,56 +20,46 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+
 /* Estilos para el logotipo en la barra de navegación */
-.navbar img {
+.logo img {
   max-height: 60px;
   max-width: 100px;
   margin-right: 150px;
 }
 
 /* Estilos para el botón de alternancia (para dispositivos móviles) */
-.navbar-toggler {
+.boton {
   border: none;
 }
 
-/* Estilos para el contenedor fluido que envuelve el contenido de la barra de navegación */
-.container-fluid {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 /* Estilos para la lista de enlaces en la barra de navegación */
-.navbar-nav {
+.posicionlista {
   list-style: none;
   display: flex;
   margin-left: auto;
-}
-
-/* Estilos para cada elemento de la lista de enlaces */
-.nav-item {
   margin-right: 15px;
 }
 
-/* Estilos para cada enlace dentro de la lista */
-.nav-link {
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
+
 
 /* Estilos para cada enlace dentro de la lista */
-.nav-link {
+.enlacesvarios{
   text-decoration: none;
   font-weight: bold;
   color: black;
-  transition: color 0.3s; /* Agrega una transición suave al cambio de color */
+
 }
+
+
 
 /* Efecto hover para los enlaces */
-.nav-link:hover {
+.enlacesvarios:hover {
   color: #525ceb;
 }
 

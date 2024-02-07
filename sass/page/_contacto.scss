@@ -1,0 +1,12 @@
+.contenedorhorarios {
+    width: 50%; /* Ancho del contenedor */
+    margin: 0 auto; /* Auto-margen para centrar horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    ul {
+        list-style-type: none; /* Elimina los marcadores de la lista */
+        padding: 0; /* Elimina el relleno predeterminado de la lista */
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 50px;
+    }
+}

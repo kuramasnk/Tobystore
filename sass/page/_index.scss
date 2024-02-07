@@ -1,0 +1,71 @@
+h1 {
+    margin: 60px;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedorimagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: $color2;
+    .imagenesexclusivas {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1650px;
+        height: 60vmin;
+        gap: 5px;
+      }
+      img {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        flex: 1;
+        object-fit: cover;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all 0.3s;
+        border-radius: 15px;
+      }
+      img:hover {
+        flex: 2;
+      }
+      
+  }
+
+  h1 {
+    margin: 100px;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+
+  H2 {
+    padding: 55px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  P {
+    padding: 55px;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .lista2024 ul {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    list-style: none;
+    padding: 55px;
+  }

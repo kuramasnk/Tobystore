@@ -1,0 +1,77 @@
+/*header*/
+
+/* Estilos para la barra de navegación */
+.logo {
+    padding: 10px;
+    background-color: $color1;
+    box-shadow: 15 15px 35px rgba(109, 6, 6, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo img {
+        max-height: 60px;
+        max-width: 100px;
+        margin-right: 150px;
+      }
+      .boton {
+        border: none;
+      }
+      .posicionlista {
+        list-style: none;
+        display: flex;
+        margin-left: auto;
+        margin-right: 15px;
+      }
+      .enlacesvarios{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+      
+      }
+      .enlacesvarios:hover {
+        color:$color4;
+      }
+      
+  }
+
+  /*Footer*/
+
+  /* Estilos para la sección de pie de página */
+.piedepagina {
+    display: grid;
+    background-color: $color3;
+    padding: 10px;
+    text-align: center;
+    .informacion {
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+  }
+  
+  .lista-pequena {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+     li {
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+  }
+  
+  .redessociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     a {
+        margin: 0 20px;
+        display: inline-block;
+      }
+    
+  }

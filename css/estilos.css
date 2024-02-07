@@ -1,0 +1,202 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establecer un margen de 0 y una fuente predeterminada para el cuerpo del documento */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+}
+
+/*header*/
+/* Estilos para la barra de navegación */
+.logo {
+  padding: 10px;
+  background-color: #29adb2;
+  box-shadow: 15 15px 35px rgba(109, 6, 6, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo .logo img {
+  max-height: 60px;
+  max-width: 100px;
+  margin-right: 150px;
+}
+.logo .boton {
+  border: none;
+}
+.logo .posicionlista {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: 15px;
+}
+.logo .enlacesvarios {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.logo .enlacesvarios:hover {
+  color: #525ceb;
+}
+
+/*Footer*/
+/* Estilos para la sección de pie de página */
+.piedepagina {
+  display: grid;
+  background-color: #0766ad;
+  padding: 10px;
+  text-align: center;
+}
+.piedepagina .informacion {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.lista-pequena {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.lista-pequena li {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.redessociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redessociales a {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+h1 {
+  margin: 60px;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.contenedorimagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.contenedorimagenes .imagenesexclusivas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1650px;
+  height: 60vmin;
+  gap: 5px;
+}
+.contenedorimagenes img {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  flex: 1;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 15px;
+}
+.contenedorimagenes img:hover {
+  flex: 2;
+}
+
+h1 {
+  margin: 100px;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+H2 {
+  padding: 55px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+P {
+  padding: 55px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.lista2024 ul {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  list-style: none;
+  padding: 55px;
+}
+
+.contenedortarjetas {
+  display: flex;
+  justify-content: space-around; /* Ajusta según tus necesidades */
+  flex-wrap: wrap;
+}
+.contenedortarjetas .card {
+  width: 18rem;
+  height: 500px;
+  margin: 15px;
+}
+
+/*CSS OFERTAS*/
+.containersecciones {
+  width: 100%; /* Establece el ancho al 100% */
+  box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+  padding: 0; /* Elimina el relleno */
+  margin: 0; /* Elimina el margen */
+}
+.containersecciones h2 p {
+  width: 100%; /* Establece el ancho al 100% */
+  text-align: justify; /* Justifica el texto dentro del contenedor */
+}
+
+.presentacionlista {
+  text-align: center;
+  font-size: 2rem;
+  list-style: none;
+  padding: 55px;
+}
+.presentacionlista li {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+.imagenespresentacion img {
+  max-width: 1100px;
+  max-height: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */

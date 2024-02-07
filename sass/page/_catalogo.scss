@@ -1,0 +1,13 @@
+.contenedortarjetas {
+    display: flex;
+    justify-content: space-around; /* Ajusta según tus necesidades */
+    flex-wrap: wrap;
+    .card {
+        width: 18rem;
+        height: 500px;
+        margin: 15px;
+      }
+   
+  }
+
+ 

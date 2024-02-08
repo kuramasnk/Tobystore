@@ -212,4 +212,66 @@ P {
   margin: 50px;
 }
 
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .lista2024 li {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .catalogotitulo h1 {
+    font-size: 1rem;
+    margin: 55px;
+  }
+  .ofertatitulo h1 {
+    font-size: 1rem;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .containersecciones h2 {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  .containersecciones p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  .presentaciontexto p {
+    font-size: 1rem;
+  }
+  .presentacionlista {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .presentacionlista p {
+    font-size: 1rem;
+  }
+  .contenedorhorarios {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .contenedorhorarios h2 {
+    margin-bottom: 10px;
+  }
+  .contenedorhorarios ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .contenedorhorarios li {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */

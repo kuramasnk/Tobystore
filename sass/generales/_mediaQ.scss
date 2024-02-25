@@ -1,4 +1,4 @@
-@media only screen and ( max-width: 500px) {
+@media only screen and ( max-width: 499px) {
 
     h1{
         font-size: 1rem;
@@ -74,4 +74,10 @@
       
   }
 }
- 
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .contenedorhorarios {
+      margin: 20px auto; 
+      width: 80%; 
+    }
+  }

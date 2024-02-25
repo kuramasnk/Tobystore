@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-/* Establecer un margen de 0 y una fuente predeterminada para el cuerpo del documento */
 body {
   font-family: "Arial", sans-serif;
   background-color: #f5f5f5;
@@ -55,10 +54,12 @@ body {
   display: grid;
   background-color: #0766ad;
   padding: 10px;
+  height: 350px;
   text-align: center;
 }
-.piedepagina .informacion {
+.piedepagina .informacion p {
   font-weight: bold;
+  text-align: center;
   font-size: 1.5rem;
 }
 
@@ -72,6 +73,7 @@ body {
   margin-bottom: 5px;
   font-weight: bold;
   font-size: 1rem;
+  text-align: center;
 }
 
 .redessociales {
@@ -80,7 +82,7 @@ body {
   align-items: center;
 }
 .redessociales a {
-  margin: 0 20px;
+  margin: 0 40px;
   display: inline-block;
 }
 
@@ -158,7 +160,7 @@ P {
 
 .contenedortarjetas {
   display: flex;
-  justify-content: space-around; /* Ajusta según tus necesidades */
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .contenedortarjetas .card {
@@ -183,7 +185,7 @@ P {
   text-align: center;
   font-size: 2rem;
   list-style: none;
-  padding: 55px;
+  padding: 15px;
 }
 .presentacionlista li {
   width: 100%;
@@ -200,19 +202,19 @@ P {
 }
 
 .contenedorhorarios {
-  width: 50%; /* Ancho del contenedor */
-  margin: 0 auto; /* Auto-margen para centrar horizontalmente */
-  text-align: center; /* Centra el texto dentro del contenedor */
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 .contenedorhorarios ul {
-  list-style-type: none; /* Elimina los marcadores de la lista */
-  padding: 0; /* Elimina el relleno predeterminado de la lista */
+  list-style-type: none;
+  padding: 0;
   font-weight: bold;
   font-size: 1.5rem;
   margin: 50px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 499px) {
   h1 {
     font-size: 1rem;
   }
@@ -271,6 +273,12 @@ P {
   .contenedorhorarios li {
     margin-bottom: 5px;
     font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contenedorhorarios {
+    margin: 20px auto;
+    width: 80%;
   }
 }
 

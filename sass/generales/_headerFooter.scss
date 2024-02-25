@@ -46,9 +46,11 @@
     display: grid;
     background-color: $color3;
     padding: 10px;
+    height: 350px;
     text-align: center;
-    .informacion {
+    .informacion p {
         font-weight: bold;
+        text-align: center;
         font-size: 1.5rem;
       }
   }
@@ -62,6 +64,7 @@
         margin-bottom: 5px;
         font-weight: bold;
         font-size: 1rem;
+        text-align: center;
       }
   }
   
@@ -70,7 +73,7 @@
     justify-content: center;
     align-items: center;
      a {
-        margin: 0 20px;
+        margin: 0 40px;
         display: inline-block;
       }
     

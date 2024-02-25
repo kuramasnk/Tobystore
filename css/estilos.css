@@ -54,7 +54,7 @@ body {
   display: grid;
   background-color: #0766ad;
   padding: 10px;
-  height: 350px;
+  height: 365px;
   text-align: center;
 }
 .piedepagina .informacion p {
@@ -82,7 +82,7 @@ body {
   align-items: center;
 }
 .redessociales a {
-  margin: 0 40px;
+  margin: 0 15px;
   display: inline-block;
 }
 
